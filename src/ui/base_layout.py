@@ -53,9 +53,9 @@ def style_base_layout():
                 
          /* Hide Top Bar of streamlit */
                 
-            #MainMenu, footer, header {
-                visibility: hidden;
-            }
+             #MainMenu, footer, header {
+                 visibility: hidden;
+             }
                 
             .block-container {
                 padding-top:1.5rem !important;    
@@ -108,6 +108,13 @@ def style_base_layout():
                 border: none !important;
                 transition: transform 0.25s ease-in-out !important;
                 }
+            div[data-testid="stCameraInput"] {
+    width: 100% !important;
+}
+
+video {
+    width: 100% !important;
+}   
 
             button:hover{
                 transform :scale(1.05)}
