@@ -6,6 +6,6 @@
 _pycache_/
 
 venv/
-.streamlit/
+#.streamlit/
 
 dist/
